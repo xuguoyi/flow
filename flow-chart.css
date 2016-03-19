@@ -1,0 +1,33 @@
+.begin-to-end{
+	background-color: #3f7fbf;
+	color: #fff;
+	padding: 5px 0px;
+	font-family:Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	width: 100px;
+	text-align: center;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+.process-node{
+	border: 1px solid #60c560;
+	width: 300px;
+	margin: 0 auto;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 5px;
+	background-color:#60c560;
+	color:#fff;
+	font-family: Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.process-node:hover{
+	background-color:#fff;
+	color:#60c560;
+}
+.textarea-code {
+  padding: 2px;
+  height: 24px;
+  width: 95%;
+  border: solid 2px #F1CA7E;
+}

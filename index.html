@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="request">
+<head>
+	<meta charset="UTF-8">
+	<title>flow-chart</title>
+	<link rel="stylesheet" type="text/css" href="flow-chart.css">
+</head>
+<body>
+	<div class="container">
+		<div class="begin-to-end">开始</div>
+
+		<div class="process-node tip1">
+			当前节点：上级审查及相关人员签核
+			<div class="tip tip_right" style="display: none;">
+				<i class="tip_triangle"></i>
+				<p class="tip_content" style="width: 9em;">但是但是但是但是但是但是但是但是但是但是但是但是但是但是但是但是但是但是
+				</p>
+			</div>
+		</div>
+
+		<div class="begin-to-end">结束</div>
+	</div>
+</body>
+
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	$.ajax({
+		url:"zzz.json",
+		dataType: "json",
+		success: function(data){
+			console.dir(data);
+		},
+		error: function(err){
+			console.dir(err);
+		}
+	});
+
+</script>
+
+</html>
